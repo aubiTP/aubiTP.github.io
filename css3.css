@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+#bonjour {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-weight: bold;
+    background-color: beige;
+}
+
+
+body {
+    margin: 1rem auto;
+    /* width: max-content; */
+    background-color: whitesmoke;
+    padding: 0.5rem;
+}
+
+#accueil {
+    margin: 1rem auto;
+    /* width: max-content; */
+    background-color: rgba(17, 212, 226, 0.21);
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    box-shadow: 5px 5px rgb(121, 236, 223);
+    font-family: cursive;
+}
+
+#presentation {
+    margin: 2rem auto;
+    /* width: max-content; */
+    background-color: rgba(20, 17, 226, 0.21);
+    padding: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid rgba(69, 84, 255, 0.233);
+    box-shadow: 5px 5px rgb(81, 106, 182);
+    font-family: cursive;
+}
+
+#lestableaux {
+    margin: 1rem auto;
+    /* width: max-content; */
+    background-color: rgba(17, 226, 31, 0.21);
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: 1px solid #64f3703b;
+    text-align: right;
+    box-shadow: 5px 5px rgb(177, 244, 122);
+}
+
+#moncv {
+    margin: 1rem auto;
+    /* width: max-content; */
+    background-color: rgba(237, 10, 48, 0.21);
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    box-shadow: 5px 5px rgb(255, 171, 235);
+    font-family: cursive;
+}
+
+#formulaire {
+    margin: 1rem auto;
+    /* width: max-content; */
+    background-color: rgba(12, 35, 242, 0.21);
+    padding: 0.3rem;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    box-shadow: 5px 5px rgb(81, 131, 248);
+    font-family: cursive;
+}
+
+#list ol a {
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin: 2rem auto;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+table {
+    width: 100% !important;
+}
+
+h2 ul {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#bienvenue {
+    padding: 1rem;
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    background: linear-gradient(red, white, yellow);
+    transform: rotate(0deg);
+    animation: bondissement 5s infinite;
+}
+
+@keyframes bondissement {
+    50% {
+        transform: rotate(10deg);
+    }
+    75% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

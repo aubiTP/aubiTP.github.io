@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulaire</title>
+        <link rel="stylesheet" href="bootstrap.min.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body class="col-10 mx-auto">
+        <h2>~Formulaire~</h2>
+        <form class="mx-1 p-3 row g-3">
+            <div class="infoPersonnelles">
+                <div class="title">
+                    <h2>Etat Civil</h2>
+                </div>
+                <div class="row">
+                    <div class="mt-5 mx-1 p-3">
+                        <label for="nom "> Nom</label>
+                        <input
+                            type="text "
+                            class="form-control text-uppercase"
+                            id="nom "
+                            placeholder=" GIRAUD "
+                        />
+                    </div>
+
+                    <div class="mt-2 mx-1 p-3">
+                        <label for="surnameInput " class="form-label">
+                            Prénom</label
+                        >
+                        <input
+                            type="text "
+                            class="form-control text-capitalize"
+                            id="surnameInput "
+                            placeholder=" Pierre "
+                        />
+                    </div>
+                    <div class="my-1 mx-1 p-3">
+                        <div class=" ">
+                            <label for="description " class="form-label">
+                                Description</label
+                            >
+                            <textarea
+                                type="text "
+                                class="form-control text-capitalize"
+                                id="description "
+                            >
+                            </textarea>
+                        </div>
+                        <div class="form-text px-2" id="description ">
+                            Quelques mots sur vous.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="compteAcess">
+                <div class="title"><h2>Compte Access</h2></div>
+
+                <div class="mt-3 mx-3 p-3">
+                    <label for="staticEmail2 " class="form-label"
+                        >Adresse Email</label
+                    >
+
+                    <input
+                        type="email "
+                        class="form-control is-invalid"
+                        id="floatingInputInvalid "
+                        placeholder="nom@domaine.com "
+                    />
+                </div>
+
+                <div class="mx-3 p-3 mt-3">
+                    <label class="form-label" for="password"
+                        >Mot de passe</label
+                    >
+                    <input
+                        id="password"
+                        type="password"
+                        placeholder="Entrez le mot de passe"
+                        class="form-control"
+                    />
+                </div>
+
+                <div class="mx-3 p-3 mt-1">
+                    <input
+                        id="password"
+                        type="password"
+                        placeholder="Confirmer votre mot de passe"
+                        class="form-control"
+                    />
+                </div>
+
+                <div class="form-text mx-3 col-md-auto p-2" id="message ">
+                    Saisissez un mot de passe contenant une lettre en majuscule
+                    des chiffres et des lettres compris entre 8 et 20
+                    caractères.
+                </div>
+            </div>
+
+            <div class="g-3 my-3 p-3 identifiant">
+                <h2>Sexe</h2>
+                <div class="form-check">
+                    <input
+                        type="radio"
+                        class="form-check-input"
+                        id="masculin"
+                        name="sexe"
+                    />
+                    <label class="form-check-label" for="masculin">M</label>
+
+                    <div class="form-check">
+                        <input
+                            type="radio"
+                            class="form-check-input"
+                            id="feminin"
+                            name="sexe"
+                        />
+                        <label class="form-check-label" for="feminin">F</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="infoPersonnelles">
+                <div class="title">
+                    <h2>Diplôme</h2>
+                </div>
+                <div class="mt-2 mx-2 p-2">
+                    <div class="form-check form-switch">
+                        <input
+                            type="checkbox"
+                            name=""
+                            id="firstSwitch"
+                            class="form-check-input"
+                        />
+                        <label for="firstSwitch" class="form-check-label"
+                            >Licence</label
+                        >
+                    </div>
+                    <div class="form-check form-switch">
+                        <input
+                            type="checkbox"
+                            name=""
+                            id="secondSwitch"
+                            class="form-check-input"
+                        />
+                        <label for="secondSwitch" class="form-check-label"
+                            >Bac</label
+                        >
+                    </div>
+                    <div class="form-check form-switch">
+                        <input
+                            type="checkbox"
+                            name=""
+                            id="thirdSwitch"
+                            class="form-check-input"
+                        />
+                        <label for="thirdSwitch" class="form-check-label"
+                            >Cap</label
+                        >
+                    </div>
+                    <div class="form-check form-switch">
+                        <input
+                            type="checkbox"
+                            name=""
+                            id="fourthSwitch"
+                            class="form-check-input"
+                        />
+                        <label for="fourthSwitch" class="form-check-label"
+                            >Bepc</label
+                        >
+                    </div>
+                    <div class="form-check form-switch">
+                        <input
+                            type="checkbox"
+                            id="fifthSwitch"
+                            class="form-check-input"
+                        />
+                        <label for="fifthSwitch" class="form-check-label"
+                            >Cep</label
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="infoPersonnelles">
+                <div class="title">
+                    <h2>Loisirs</h2>
+                </div>
+
+                <div class="mb-3 md-5 p-2">
+                    <select
+                        class="form-select"
+                        aria-label=" disabled select example "
+                    >
+                        <option selected=" ">Menu</option>
+                        <option value="1 ">Sport</option>
+                        <option value="2 ">Danse</option>
+                        <option value="3 ">Sortie</option>
+                        <option value="3 ">Musique</option>
+                        <option value="3 ">Autres</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="boutons">
+                <button type="submit " class="btn btn-primary">Envoyer</button>
+
+                <button type="reset " class="btn btn-danger" id="quitter ">
+                    Quitter
+                </button>
+            </div>
+        </form>
+        <script src="bootstrap.bundle.min.js "></script>
+    </body>
+</html>

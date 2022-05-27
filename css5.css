@@ -1,0 +1,125 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#E {
+    color: rgba(3, 81, 39, 0.977);
+    font-weight: bold;
+}
+
+#Q {
+    color: rgb(235, 13, 13);
+    font-weight: bold;
+}
+
+body {
+    font-style: italic;
+    background-color: rgb(251, 247, 236);
+    background: url("Balancing-Mental-Health-and-Academic-Rigor-In-Class-Presentations.jpg") no-repeat fixed center center;
+    background-size: cover;
+    color: black;
+}
+
+#enr {
+    font-weight: bolder;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 28px;
+}
+
+#texte::first-letter {
+    margin-left: 2rem;
+    font-size: large;
+}
+
+body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: rgb(251, 249, 253);
+    margin: 20px;
+    font-size: 1.4em;
+    color: black;
+}
+
+h4 {
+    font-size: xx-large;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    color: rgb(250, 0, 29);
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+h5 {
+    text-align: right;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+p {
+    font-size: larger;
+}
+
+#eneam {
+    color: rgb(241, 87, 21);
+    font-weight: bold;
+}
+
+p+div {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+    /* font-weight: bold; */
+    font-size: medium;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 0, 0, 0.621);
+    border: none;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#texte {
+    display: block;
+    background: #fff;
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    padding: 2rem;
+    font-weight: bold;
+}
+
+#texte+div {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#accueil {
+    background: #fff;
+    background: url("sans-titre_004.jpg")no-repeat fixed center center;
+    background-size: cover;
+    color: rgb(0, 1, 0)
+}
+
+span {
+    color: rgba(255, 0, 0, .55);
+}
+
+#cv {
+    padding: 3rem;
+    border-radius: 10rem;
+    background: rgba(237, 46, 71, 0.621);
+}
